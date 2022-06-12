@@ -1,0 +1,47 @@
+/* CSS Document */
+.grey { 
+    color:grey;
+    margin-left: 50px;
+}
+
+.yellow {
+    color:yellow
+}
+
+#post {
+    margin-left: 100px;
+}
+
+.red {
+    color:red;
+    margin-left: 130px;
+    
+}
+
+.orange {
+    color:orange;
+    margin-left: 100px;
+}
+
+.white {
+    color:white
+}
+
+body {
+    background-color: rgb(90, 89, 89);
+}
+
+
+#name {
+    color: grey;
+    margin: 100px;
+}
+
+#circle{
+    margin: 5px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    position: absolute;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Info</title>
+</head>
+<body>
+    <form name="Customer Info" action="/some_script.php" method="POST" autocomplete="on" >
+        <fieldset>
+            <legend>Customer Info</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Enter your name" autofocus required><br><br>
+            <label for="tphone">Telephone:</label>
+            <input type="text" name="Telephone" placeholder="1-234-567-8910" pattern="[0-9-]{1,14}" autofocus required><br><br>
+            <label for="email">Email Address:</label>
+            <input type="text" name="Email Address" placeholder="Enter your email address" autofocus required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Books</legend>
+            <input list="books" name="book" id="book" autofocus>
+            <datalist id="books">
+                <option value="Spiderverse">
+                <option value="Lord of the Rings">
+                <option value="Misfit">
+                <option value="Fall of Reach">
+                <option value="Harry Potter">
+            </datalist>
+
+            <label for="Qmax">Quantity (Maximum 5):</label>
+            <select name="quantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </fieldset>
+            <input type="submit" value="submit">
+
+    </form>
+    
+</body>
+</html>
