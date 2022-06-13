@@ -1,11 +1,53 @@
 /* CSS Document */
 
-.header {
-    display:flex;
-    flex-direction: row;
-    flex-basis: 50%;
-    background-color: green;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+    grid-gap: 0px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#top {
+    background-color: #0eb60e;
+    color:#f2f2f2
+}
+
+#bottom, #mid {
+    background-color: antiquewhite
+}
+
+.row1 {
+    background-color: #ffffffcc;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }
 
 
+.row2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
 
+.row3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.row4 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
