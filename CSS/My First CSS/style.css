@@ -1,15 +1,26 @@
 /* CSS Document */
-.grey { 
+.grey1 { 
+    color:grey;
+    margin-left: 0px;
+}
+
+.grey2{
     color:grey;
     margin-left: 50px;
 }
 
 .yellow {
-    color:yellow
+    color: burlywood;
+    margin-left: 80px;
+}
+
+.grey {
+    color:grey;
+    margin-left: 20px;
 }
 
 #post {
-    margin-left: 100px;
+    margin-left: 130px;
 }
 
 .red {
@@ -33,7 +44,7 @@ body {
 
 
 #name {
-    color: grey;
+    color: burlywood;
     margin: 100px;
 }
 
@@ -44,4 +55,5 @@ body {
     height: 10px;
     background-color: green;
     position: absolute;
+    margin-left: 85px;
 }

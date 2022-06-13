@@ -1,0 +1,11 @@
+/* CSS Document */
+
+.header {
+    display:flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    background-color: green;
+}
+
+
+
