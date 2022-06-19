@@ -1,0 +1,23 @@
+/*this is a css file...*/
+body {
+    background-color: antiquewhite
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+#title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    border-bottom: solid #00b7ff;
+}
+
+.info {
+    color: hsla(39, 100%, 50%, 0.898);
+}

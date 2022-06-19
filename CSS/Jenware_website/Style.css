@@ -1,0 +1,107 @@
+/*CSS Document*/
+
+.header{
+    color: #fff;
+    background-color: #ffecb4;
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+    font-style: italic;
+}
+
+#orange {
+    color: #ffa500;
+}
+
+#black {
+    color: #000;
+}
+
+.navbar {
+    background-color: hsl(309, 83%, 21%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.white-text {
+    color: white;
+    border: 1px solid rgb(248, 245, 245);
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+#np {
+    color: hsl(309, 83%, 21%);
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#bw {
+    color: #ffa500;
+    border-top: #ffa500 solid 1px;
+    border-left: #ffa500 solid 3px;
+    text-indent: 1%;
+    margin-top: 15px;
+}
+
+.b-text {
+    color: #ffa500;
+    
+    
+}
+
+.button {
+    color:#a8210c;
+    border-bottom: dotted;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #ffecb4;
+    padding: 10px;
+    border: 1px double #ffa500;
+    margin-top: 35px;
+    background-color: hsl(39, 93%, 72%) ;
+    position: relative;
+
+
+}
+
+#ftitle {
+    color: hwb(27 3% 13%);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    text-align: center;
+    right: 602px;
+    
+}
+
+#img {
+    width: auto;
+    position: absolute; 
+    bottom: 38px;
+    left: 1px;
+}
+
+.text {
+    position: relative;
+    left: 40px
+
+}
+
+.bfooter {
+    background-color: #ffecb4;
+    color: hsl(45, 25%, 3%);
+    text-align: center;
+    font-family: 'sans-serif';
+    padding: 10px;
+    border: 1px solid #ffa500;
+    
+}
