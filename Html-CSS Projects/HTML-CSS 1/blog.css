@@ -1,0 +1,191 @@
+/*css document*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(./images/yellow_background.png);
+    display:flex; 
+    flex-direction:column; 
+  }
+  /*header*/
+  .flex-container {
+    display: flex;
+    position: relative;
+  }
+  
+  #logo {
+    position: relative;
+  }
+  
+  .top-left {
+    position: absolute;
+    bottom: 35px;
+    left: 60px;
+    color: green;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  #ntext {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 30px;
+    font-size: x-large;
+  }
+  
+  .navb {
+    text-decoration: none;
+    color: black
+  }
+  
+  .navb:hover{
+    text-decoration: underline;
+  }
+  
+  .line1 {
+    width: 1870px;
+    height: 5px;
+  }
+  
+  /*body*/
+
+  .container-1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  
+  }
+
+  .my-a {
+    font-family: garamond, serif;
+    font-weight: normal;
+  }
+
+  .city {
+    position: absolute;
+    top: 105px;
+  }
+
+  .pic-1 {
+    width: 400px;
+    border: 2px solid #555;
+
+  }
+
+  .pic-2 {
+    width: 400px;
+    border: 2px solid #555;
+
+  }
+
+  .city2 {
+    position: absolute;
+    top: 105px;
+    left: 10px;
+    
+  }
+
+  .pic3 {
+    width: 650px;
+    border: 2px solid #555;
+
+  }
+
+  .city3 {
+    position: absolute;
+    top: 105px;
+    right: 10px;
+  }
+
+  .pic4 {
+    width: 650px;
+    border: 2px solid #555;
+
+  }
+
+  
+ 
+
+  /*footer*/
+.footer {
+    position: relative;
+    display: flex;
+     left: 0;
+     top: 630px;
+     bottom: 0px;
+     width: 100%;
+     height: 150px;
+     background-color: wheat;
+     color: rgb(5, 5, 5);
+    
+  }
+  
+  .line2 {
+    width: 1870px;
+    height: 4px;
+    z-index: 1;
+  }
+  
+  .toparrow {
+    position: absolute;
+    z-index: 1;
+    height: 30px;
+    left: 935px;
+  }
+  
+  .container-6 {
+    position: absolute;
+    top: 15px;
+  }
+  
+  #tweet {
+    font-weight: lighter;
+    font-family: garamond, serif;
+  }
+  
+  .cities {
+    position: absolute;
+    left: 750px;
+    top: 15px;
+  }
+  
+  .pics {
+    font-weight: lighter;
+    font-family: garamond, serif;
+  }
+  
+  .pics1 {
+    border: 2px solid #555;
+  }
+  
+  .friends2 {
+    font-weight: lighter;
+    font-family: garamond, serif;
+  }
+  
+  .friends {
+    position: absolute;
+    left: 1300px;
+    top: 15px;
+    list-style-image: url(./images/external_link.png);
+    
+  }
+  
+  .list {
+    color: red;
+  }
+  
+  .list2 {
+    position: absolute;
+    left: 1450px;
+    top: 55px;
+    list-style-image: url(./images/external_link.png);
+    color: red;
+  }
+  
