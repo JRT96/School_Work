@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="/favicon/favicon (1).ico" rel="icon" type="image/x-icon" />
+</head>
+<body>
+    <div class="login-card-container">
+        <div class="login-card">
+            <div class="login-card-logo">
+                <img src="/./images/Fountas and Pinnell Say Librarians Should Guide Readers by Interest, Not Level.png" alt="logo">
+            </div>
+            <div class="login-card-header">
+                <h1>Sign In</h1>
+                <div>Please Login to use platform</div>
+            </div>
+            <form action="" class="login-card-form">
+                <div class="form-item">
+                    <span class="form-item-icon material-symbols-rounded">mail</span>
+                    <input type="text" id="enterEmail" placeholder="Enter Email" required autofocus>
+                </div>
+                <div class="form-item">
+                    <span class="form-item-icon material-symbols-rounded">lock</span>
+                    <input type="password" id="enterPassword" placeholder="Enter Password" required>
+                </div>
+                <button type="button" id="signInBtn" onclick="userSignInBtn()">Sign in</button>
+            </form>
+            <div class="login-card-footer">
+                Don't have an account? <a href="/./register/register.html">Create a free account</a>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
