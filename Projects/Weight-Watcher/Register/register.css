@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+header {
+    height: 100px;
+    border-bottom: 1px solid rgba(114, 6, 109, 0.349);
+    margin-bottom: 30px;
+}
+
+#logo {
+    width: 300px;
+}
+
+
+footer {
+    margin-top: 30px;
+    background-color: rgba(114, 6, 109, 0.349);
+    text-align: center;
+    padding: 10px;
+    height: 250px;
+    border: 2px solid rgba(114, 6, 109, 0.349);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-box .about-box, .tweet-box .mailing-box, .social-box {
+    width: 30%;
+    height: 20px;
+    font-size: small;
+}
+
+.tweet-box span {
+    color: purple;
+}
+
+.social-box img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.mailing-list button {
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid rgba(114, 6, 109, 0.349);
+    background-color: rgba(114, 6, 109, 0.349);
+    color: white;
+    font-size: 20px;
+}
+
+.mailing-list button:hover {
+    background-color: white;
+    color: rgba(114, 6, 109, 0.349);
+}
+
+.register-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.title-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 50%;
+    
+}
+
+.input-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgba(114, 6, 109, 0.349);
+    border: 2px solid rgba(114, 6, 109, 0.349);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.register-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.register-inputs input {
+    margin: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid rgba(114, 6, 109, 0.719);
+    font-size: 20px;
+    color: grey;
+}
+
+.register-inputs label {
+    font-size: 20px;
+    text-align: center;
+}
+
+.register-inputs input:focus {
+    outline: none;
+}
+
+#materialId span {
+    width: 100%;
+    height: 50px;
+    font-size: 100px;
+    text-align: center;
+}
+
+.privacy-statement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    margin: 10px;
+    padding: 10px;
+}
+
+.privacy-statement #keyword {
+    color: red;
+    text-decoration: underline;
+}
+.privacy-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: rgba(114, 6, 109, 0.103);
+    border: 2px solid rgba(114, 6, 109, 0.349);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+#submitButton {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid rgba(114, 6, 109, 0.349);
+    background-color: rgba(114, 6, 109, 0.349);
+    color: white;
+    font-size: 20px;
+}
+
+#submitButton:hover {
+    background-color: white;
+    color: rgba(114, 6, 109, 0.349);
+}
+
+.picture-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(114, 6, 109, 0.103);
+    border: 2px solid rgba(114, 6, 109, 0.349);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    display: none;
+}
+
+#picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#imageContainer {
+    width: 200px;
+    
+}
+
+@media screen and (max-width: 1080px) {
+
+    header {
+        height: 10%;
+    }
+
+    #carouselExampleInterval {
+        width: 95%;
+    }
+    .privacy-box{
+        width: 50%;
+    }
+
+    .register-box {
+        width: 100%;
+    }
+
+    .input-boxes{
+        width: 100%;
+    }
+
+    #imageContainer {
+        width: 100%;
+    }
+
+    .footer-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    footer {
+        margin-top: 30px;
+        background-color: rgba(114, 6, 109, 0.349);
+        text-align: center;
+        padding: 10px;
+        height: 100%;
+    }
+
+    .footer-box .about-box, .tweet-box .mailing-box, .social-box {
+        width: 100%;
+        height: 100%;
+        font-size: small;
+    }
+    
+}
